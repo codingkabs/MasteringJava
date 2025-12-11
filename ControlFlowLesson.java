@@ -30,8 +30,8 @@ public class ControlFlowLesson {
         // UNCOMMENT THESE LINES TO TEST
         // ================================
 
-        // exampleIfElseBasic();
-        // exampleIfElseMultiple();
+        exampleIfElseBasic();
+        exampleIfElseMultiple();
         // exampleLogicalOperators();
         // exampleForLoop();
         // exampleForLoopReverse();
@@ -93,11 +93,14 @@ public class ControlFlowLesson {
 
         if (mark >= 70) {
             System.out.println("Grade: A");
-        } else if (mark >= 60) {
+        } 
+        else if (mark >= 60) {
             System.out.println("Grade: B");
-        } else if (mark >= 50) {
+        } 
+        else if (mark >= 50) {
             System.out.println("Grade: C");
-        } else {
+        } 
+        else {
             System.out.println("Grade: Fail");
         }
     }
